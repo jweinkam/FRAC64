@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ZLIB Header">
+      <UniqueIdentifier>{bb72b2ac-5ec0-4373-b115-5b2569dbb9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZLIB">
+      <UniqueIdentifier>{9a981e8e-f019-4811-a4d4-b81d649cecd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PNG Header">
+      <UniqueIdentifier>{e075dbea-259f-4390-acdd-92e4143a85fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PNG">
+      <UniqueIdentifier>{638c50cd-a74e-45cf-9fad-c08e22c70a67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FRAC64NonTemplate2017.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FRAC64NonTemplate2017Dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PNG\png.h">
+      <Filter>PNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PNG\pngasmrd.h">
+      <Filter>PNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PNG\pngconf.h">
+      <Filter>PNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\deflate.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\infblock.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\infcodes.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\inffast.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\inffixed.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\inftrees.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\infutil.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\trees.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\zconf.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\zlib.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLIB\zutil.h">
+      <Filter>ZLIB Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCriticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcColor.HPP">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FracDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FRACFUNC.HPP">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FracLargeInt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FracProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FracTemplate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FracWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FracWindowFunctions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeInts.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LDouble.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAllocate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OriginalFracTemplate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectsQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTWIN.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StopDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\png.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngerror.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngget.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngmem.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngpread.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngread.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngrio.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngrtran.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngrutil.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngset.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngtrans.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngwio.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngwrite.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngwtran.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG\pngwutil.c">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\adler32.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\compress.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\crc32.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\deflate.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\gzio.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\infblock.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\infcodes.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\inffast.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\inflate.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\inftrees.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\infutil.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\trees.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\uncompr.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLIB\zutil.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcColor.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FracDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FracMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FracProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FracWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FracWindowFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeInts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LDouble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LOADIMAG.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryAllocate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVEIMAG.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StopDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FRAC64NonTemplate2017.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FRAC64NonTemplate2017.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FRAC64NonTemplate2017.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="FRACFUNC64.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="LargeInts64.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="LDouble64.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
